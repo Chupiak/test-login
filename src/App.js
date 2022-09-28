@@ -46,7 +46,7 @@ function App() {
 
             <div className="welcome">
               <img src={mops} alt="welcome" width={422} height={300}/>
-              <h2><span>{user.name}</span> Welcome to 2MBA ! </h2>
+              <h2><center><span>{user.name}</span>, welcome to 2MBA ! </center></h2>
               <h5>FULL NAME : <span>{user.fullName}</span>  </h5>
               <h5>COUNTRY : <span>{user.country}</span>  </h5>
               <h5>JOB : <span>{user.job}</span> </h5>
